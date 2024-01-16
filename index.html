@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tentativa 01</title>
+    <title>Calculadora L4L</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <h1>Calculadora L4L</h1>
-        <p>Este programa serve para calcular o tamanho do sistema fotovoltaico baseado na média de consumo em kWh/mes.</p>
-    </header>
-
     <main>
-        <p>Média:</p>
-        <input type="number" id="consumo" />
-    
-        <h2 id="resultado">0 kWp</h2>
-        <button id="button"> Calcular Sistema</button>
+        <header>
+            <img src="/icon-sun.svg" alt="Icon of Sun">
+            <h1>Calculadora L4L</h1>
+            <p>Este programa serve para calcular o tamanho do sistema fotovoltaico <br/> baseado na média de consumo em kWh/mes.</p>
+        </header>
+        <hr>
+        <section>
+            <div>
+                <p>Média (kwh/mês):</p>
+                <input type="number" id="consumo" />
+            </div>
+        
+            <h2 id="resultado">0 kWp</h2>
+            <a href="https://www.aldo.com.br/categoria/energia-solar/gerador-de-energia-solar-fotovoltaico/on-grid/growatt" target="_blank" id="linkPreco">Veja o Preço do Sistema</a>
+            <button id="button"> Calcular Sistema</button>
+        </section>
+        <hr>
+        <footer>
+            <p>Todos os direitos reservados a Light 4 Life Solar.</p>
+        </footer>
     </main>
-
-    <footer>
-        <p>Todos os direitos reservados a Light 4 Life Solar.</p>
-    </footer>
 </body>
 </html>
