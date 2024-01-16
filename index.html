@@ -5,26 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentativa 01</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
         <h1>Calculadora L4L</h1>
-    <p>Este programa serve para calcular o tamanho do sistema fotovoltaico baseado na média de consumo em kWh/mes.</p>
+        <p>Este programa serve para calcular o tamanho do sistema fotovoltaico baseado na média de consumo em kWh/mes.</p>
     </header>
 
     <main>
         <p>Média:</p>
-        <input type="number"/>
+        <input type="number" id="consumo" />
     
-        <h2>0 kWp</h2>
-        <button>Calcular Sistema</button>
+        <h2 id="resultado">0 kWp</h2>
+        <button id="button"> Calcular Sistema</button>
     </main>
 
     <footer>
         <p>Todos os direitos reservados a Light 4 Life Solar.</p>
     </footer>
-
-
 </body>
 </html>
