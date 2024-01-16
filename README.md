@@ -1,0 +1,1 @@
+Este projeto é uma calculadora desenvolvida em HTML, CSS e JavaScript para auxiliar no dimensionamento de sistemas fotovoltaicos. A calculadora permite que os usuários ingressem dados relevantes e fornece estimativas sobre a capacidade do sistema, a produção de energia e outros parâmetros essenciais.
